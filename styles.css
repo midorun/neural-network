@@ -1,0 +1,97 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+body {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  width: 8em;
+  background-color: #242424;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 7px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+#statusbar {
+  width: 100%;
+}
+
+#board {
+  padding-top: 1em;
+  width: 100%;
+}
+
+#playground {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-bottom: 0.5em;
+  justify-content: center;
+}
+
+#prediction {
+  border: 1px solid lightgrey;
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+}
+
+#download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+#downloadLink {
+  color: blue;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.buttonbar {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+#status {
+  /* width: 100%; */
+  background-color: #eeeeee;
+  border-radius: 0.5em;
+  height: 250px;
+  overflow: scroll;
+  margin-top: 0.5em;
+  padding: 1em;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column-reverse;
+}

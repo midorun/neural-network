@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Neural Network</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="outer">
+      <div id="board">
+        <div id="playground">
+          <canvas id="canvas" width="250" height="250"></canvas>
+          <div id="prediction"></div>
+        </div>
+        <div class="buttonbar">
+          <button type="button" id="predict">Predict</button>
+          <button type="button" id="clear">Clear</button>
+        </div>
+      </div>
+      <div id="statusbar">
+        <div id="download"></div>
+        <div class="buttonbar">
+          <button type="button" id="train">Train</button>
+          <button type="button" id="test">Test</button>
+          <button type="button" id="loadWeights">Load weights</button>
+        </div>
+        <div id="status"></div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.2.0/math.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="nn.js"></script>
+    <script type="text/javascript" src="nnmnist.js"></script>
+    <script type="text/javascript" src="eventListeners.js">
+    </script>
+  </body>
+</html>
